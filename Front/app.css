@@ -1,0 +1,143 @@
+:root {
+  --feedback-primary-color: #282c34;
+}
+
+#App-logo {
+  height: 13.5vmin;
+  width: 13.5vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  #App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--feedback-primary-color);
+}
+
+.button {
+  border-radius: 4px;
+  background-color: cornflowerblue;
+  border: black;
+  color: #ffffff;
+  text-align: center;
+  font-size: 1em;
+  padding: 7px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.chat {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chat li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #b3a9a9;
+}
+
+.chat li .chat-body p {
+  margin: 0px;
+  color: #777777;
+}
+
+.panel .slidedown .glyphicon,
+.chat .glyphicon {
+  margin-right: 5px;
+}
+
+.panel-body {
+  overflow-y: scroll;
+  height: 250px;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
+#chat-panel {
+  padding: 5px;
+  background-color: #f4f4f4;
+  margin-top: 10px;
+  border-radius: 3%;
+  max-width: 430px;
+}
+
+#panel-heading {
+  border-bottom: 1px solid var(--feedback-primary-color);
+}
+
+.p {
+  max-width: 400px;
+  word-break: break-all;
+}
+
+#rigth {
+  margin-left: 22em;
+}
+
+#prigth {
+  text-align: end;
+  margin-right: 0.3em;
+}
