@@ -1,0 +1,15 @@
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\CurrencyConverter.exe
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\CurrencyConverter.deps.json
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\CurrencyConverter.runtimeconfig.json
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\CurrencyConverter.dll
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\ref\CurrencyConverter.dll
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\bin\Debug\net6.0\CurrencyConverter.pdb
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.csproj.AssemblyReference.cache
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.AssemblyInfoInputs.cache
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.AssemblyInfo.cs
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.csproj.CoreCompileInputs.cache
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.dll
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\ref\CurrencyConverter.dll
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.pdb
+C:\Users\gpicard\Documents\test_tech\Back\CurrencyConverter\CurrencyConverter\obj\Debug\net6.0\CurrencyConverter.genruntimeconfig.cache

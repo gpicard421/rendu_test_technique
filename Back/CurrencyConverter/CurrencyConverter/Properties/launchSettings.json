@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CurrencyConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\gpicard\\Documents\\test_tech\\Back\\CurrencyConverter\\CurrencyParameters.txt"
+    }
+  }
+}
