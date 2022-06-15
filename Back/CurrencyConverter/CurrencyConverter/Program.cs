@@ -23,11 +23,6 @@ internal class Program
                 Array.Copy(lines, 2, exchangeRatesParameters, 0, parametersArrayLength);
                 ExchangeRates rates = new(exchangeRatesParameters);
 
-                string[] shortestPath = Helpers.GetShortestPathForConversion("EUR", "JPY", rates);
-
-                if (shortestPath == null || !shortestPath.Any())
-                    throw new Exception("no path found for this currency conversion");
-
                 string fromCurrency = parametersToProcess[0];
 
                 int amount = Convert.ToInt32(parametersToProcess[1]);
@@ -35,6 +30,10 @@ internal class Program
                     throw new ArgumentException("amount to calculate can't be inferior to 0");
 
                 string toCurrency = parametersToProcess[2];
+
+                string[] shortestPath = Helpers.GetShortestPathForConversion(fromCurrency, toCurrency, rates);
+                if (shortestPath == null || !shortestPath.Any())
+                    throw new Exception("no path found for this currency conversion");
 
                 decimal result = ConvertCurrency(amount, rates, shortestPath);
                 Console.WriteLine(result);
